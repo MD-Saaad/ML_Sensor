@@ -1,0 +1,27 @@
+We make the VS Code new Repo
+Then we init he it in the folder
+
+1. git Repo
+2. create folder for buildin project
+3. go inside and open it in and clone it in VS code
+4. create virtual env using conda
+        conda create -p venv python3.12 -y -------- -p = full path -----  -y = yes to all ---- -n = requried or custome name path
+        conda acivate 
+        conda deactivate 
+
+5. make the setup.py file 
+        from setuptools import find_packages, ## name it setup
+
+        setup(
+            name = "Project name",
+            author = "author_name",
+            author_email = "email",
+            packages = find_packages()
+
+        )         
+
+6. make the requrinments.txt file 
+        we can add all the requried files that we need in our project 
+                pip install -r requrinments ------------  -r = flag -- it will read the all packages one by one  
+
+                we can make function to set in setup.py file with name install_requires = ["pandas","  ","  " ]        

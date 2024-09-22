@@ -1,0 +1,6 @@
+We make the packaes in python 
+to see if our packaes is made we see the e file ex: sensor.egg-info
+it will store all the information regrading it 
+egg file store the meta data 
+
+
