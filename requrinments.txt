@@ -3,5 +3,5 @@ pymongo==4.2.0
 
 
 
-# editable mode from this we don't need to run the setup.py file only run the req.txt it will trrgger the setup.py
+# -e . is editable mode from this we don't need to run the setup.py file only run the req.txt it will trrgger the setup.py
 -e .
